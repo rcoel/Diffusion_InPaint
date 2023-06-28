@@ -4,9 +4,8 @@
 mkdir -p data/pretrained
 cd data/pretrained
 
-gdown https://drive.google.com/uc?export=download&id=1-N-f2bOzsczQ6KLCeaTgs329dq0eXERy
-gdown https://drive.google.com/uc?export=download&id=1zLf3Ut4P2qfj1duLKzviLv5Uig68qqPv
+wget https://openaipublic.blob.core.windows.net/diffusion/jul-2021/256x256_classifier.pt # Trained by OpenAI
+wget https://openaipublic.blob.core.windows.net/diffusion/jul-2021/256x256_diffusion.pt # Trained by OpenAI
 
-gdown https://drive.google.com/uc?export=download&id=1-1Q6C39V-Uskm0aylTA3uTS1QwXpH5V0
-gdown https://drive.google.com/uc?export=download&id=1-Dtx5OiYlG4g5yna9gt6PfoqdsdWSUKU
-)
+gdown https://drive.google.com/uc?id=1norNWWGYP3EZ_o05DmoW1ryKuKMmhlCX
+gdown https://drive.google.com/uc?id=1QEl-btGbzQz6IwkXiFGd49uQNTUtTHsk
