@@ -92,12 +92,12 @@ def load_data_inpa(
 
     if deterministic:
         loader = DataLoader(
-            dataset, batch_size=batch_size, shuffle=False, num_workers=1, drop_last=drop_last
+            dataset, batch_size=batch_size, shuffle=False, num_workers=1, drop_last=drop_last, pin_memory= True
         )
 
     else:
         loader = DataLoader(
-            dataset, batch_size=batch_size, shuffle=True, num_workers=1, drop_last=drop_last
+            dataset, batch_size=batch_size, shuffle=True, num_workers=1, drop_last=drop_last, pin_memory= True
         )
 
     if return_dataloader:

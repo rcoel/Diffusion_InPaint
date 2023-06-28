@@ -119,7 +119,7 @@ def main(conf: conf_mgt.Default_Conf):
 
         for k in batch.keys():
             if isinstance(batch[k], th.Tensor):
-                batch[k] = batch[k].to(device)
+                batch[k] = batch[k].pin_memory().to(device)
 
         model_kwargs = {}
 
