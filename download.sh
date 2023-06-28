@@ -9,3 +9,4 @@ wget https://openaipublic.blob.core.windows.net/diffusion/jul-2021/256x256_diffu
 
 gdown https://drive.google.com/uc?id=1norNWWGYP3EZ_o05DmoW1ryKuKMmhlCX
 gdown https://drive.google.com/uc?id=1QEl-btGbzQz6IwkXiFGd49uQNTUtTHsk
+)
