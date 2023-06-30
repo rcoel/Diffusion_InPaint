@@ -34,8 +34,8 @@ use_new_attention_order: false
 clip_denoised: true
 use_ddim: false
 image_size: 256
-classifier_path: ./data/pretrained/256x256_classifier.pt
-model_path: ./data/pretrained/256x256_diffusion.pt
+classifier_path: ./models/256x256_classifier.pt
+model_path: ./models/256x256_diffusion.pt
 name: test_inet256_ev2li
 inpa_inj_sched_prev: true
 n_jobs: 1

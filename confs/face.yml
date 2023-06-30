@@ -36,7 +36,7 @@ use_ddim: false
 latex_name: RePaint
 method_name: Repaint
 image_size: 256
-model_path: ./data/pretrained/celeba256_250000.pt
+model_path: ./models/celeba256_250000.pt
 name: face_example
 inpa_inj_sched_prev: true
 n_jobs: 1
