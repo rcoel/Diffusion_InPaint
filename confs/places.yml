@@ -41,10 +41,10 @@ n_jobs: 1
 print_estimated_vars: true
 inpa_inj_sched_prev_cumnoise: false
 schedule_jump_params:
-  t_T: 150
+  t_T: 180
   n_sample: 1
   jump_length: 10
-  jump_n_sample: 4
+  jump_n_sample: 5
 data:
   eval:
     lama_p256_ev2li_n100_test:
